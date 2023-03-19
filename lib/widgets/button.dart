@@ -4,12 +4,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class Button extends StatelessWidget {
   final double height;
   final double width;
+  final double radius;
   final IconData icon;
   final VoidCallback onTap;
   Button({
     super.key,
     required this.height,
     required this.width,
+    required this.radius,
     required this.icon,
     required this.onTap,
   });
@@ -23,6 +25,7 @@ class Button extends StatelessWidget {
         width: width.w,
         decoration: BoxDecoration(
           color: Color(0xff3E8B3A),
+          borderRadius: BorderRadius.circular(radius.r),
           boxShadow: [
             BoxShadow(
               color: Color(0xff0000004D).withOpacity(0.3),
@@ -32,10 +35,10 @@ class Button extends StatelessWidget {
             ),
           ],
         ),
-        // child: Icon(
-        //   icon: Icon
-        //   color: Color(0xffF1F1F2),
-        //   )
+        child: Icon(
+          icon: Icon
+          color: Color(0xffF1F1F2),
+          )
       ),
     );
   }
