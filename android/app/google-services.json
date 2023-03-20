@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "729706979218",
+    "project_id": "food-sharing-app-94897",
+    "storage_bucket": "food-sharing-app-94897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729706979218:android:89f844aa833ded376f2b4b",
+        "android_client_info": {
+          "package_name": "com.example.food_sharing_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729706979218-dh7ff7nu6d8vbce0i2bc0k4e0gtchbtj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.food_sharing_app",
+            "certificate_hash": "e66b5a8715e430d101d44674abc65cf49613ac3a"
+          }
+        },
+        {
+          "client_id": "729706979218-daroasdj90pi61ua71h4ceo3dp1alg5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwHCn4kkLZCYvegCoKTB-Emlhph5IBJBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729706979218-daroasdj90pi61ua71h4ceo3dp1alg5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
