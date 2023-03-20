@@ -36,7 +36,7 @@ class Button extends StatelessWidget {
           ],
         ),
         child: Icon(
-          icon: Icon
+          icon,
           color: Color(0xffF1F1F2),
           )
       ),
