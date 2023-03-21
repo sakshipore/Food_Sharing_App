@@ -1,7 +1,6 @@
 import "package:flutter/material.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
 import 'package:food_sharing_app/routes/routes_names.dart';
-import 'package:food_sharing_app/view/click_picture_screen.dart';
 import "package:get/get.dart";
 
 class HomeScreen extends StatelessWidget {

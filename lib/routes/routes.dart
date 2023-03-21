@@ -17,7 +17,7 @@ class AppRoutes {
     ),
     GetPage(
       name: RoutesNames.sharePictureScreen,
-      page: () => SharePictureScreen(),
+      page: () => SharePictureScreen(file: Get.arguments),
     ),
     GetPage(
       name: RoutesNames.messageScreen,
